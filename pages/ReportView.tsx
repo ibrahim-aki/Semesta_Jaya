@@ -1,11 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { OpnameReport, OpnameItem } from '../types';
-import { CheckCircleIcon, SparklesIcon, ChevronLeftIcon, PrinterIcon, DocumentDownloadIcon } from '../components/icons';
-import { getInventoryAnalysis } from '../services/geminiService';
-import Loader from '../components/Loader';
-import { downloadCsv } from '../utils/csvHelper';
+import { OpnameReport, OpnameItem } from '@/types';
+import { getInventoryAnalysis } from '@/services/geminiService';
+import Loader from '@/components/Loader';
+import { downloadCsv } from '@/utils/csvHelper';
 
 interface ReportViewProps {
   report: OpnameReport;
