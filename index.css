@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 /* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+=======
+import './index.css'; // ✅ Import Tailwind styles
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Could not find root element to mount to");
+}
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+>>>>>>> 6f389f5cf05dc071ab79ee676863ad36a71eb879
