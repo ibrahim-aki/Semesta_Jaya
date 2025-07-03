@@ -1,0 +1,6 @@
+{
+  "name": "Semesta Jaya APP",
+  "description": "Aplikasi untuk mengelola dan melakukan stok opname di beberapa toko sembako. Aplikasi ini membantu melacak selisih stok barang setiap periode pergantian karyawan dan memberikan laporan perbandingan.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
